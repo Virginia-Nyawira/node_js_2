@@ -1,0 +1,19 @@
+{
+  "name": "first_npm",
+  "version": "1.0.0",
+  "description": "First project created through npm command",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "cmd"
+  ],
+  "author": "Virginia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
