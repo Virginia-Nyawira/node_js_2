@@ -17,6 +17,9 @@ var students = {
 app.get('/',function(req,res){
     res.send('Hello World');
 });
+app.get('/view',function(req,res){
+    res.sendFile(__dirname+'/index.html');
+});
 app.get('/contact',function(req,res){
     res.send('Contact us');
 });
