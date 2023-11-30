@@ -24,7 +24,7 @@ app.get('/contact',function(req,res){
     res.send('Contact us');
 });
 app.get('/contact/:id',function(req,res){
-    res.send('Contact at a requested name '+ students[req.params.id]);
+    res.send('Contact at a requested name : '+ students[req.params.id]);
 });
 app.get('/about',function(req,res){
     res.send('About us');

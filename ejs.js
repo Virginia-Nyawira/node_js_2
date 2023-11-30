@@ -7,9 +7,9 @@ app.set('view engine', 'ejs');
 app.get('/', function(req, res) {
     res.sendFile(__dirname + "/index.html");
 });
-app.get('/about',function(req, res) {
+app.get('/about_me',function(req, res) {
     res.sendFile(__dirname + "/about.html");
 });
 app.listen(3002, function() {
-    console.log("Listening on port 3002");
+    console.log("Listening on port 3002, not any other");
 });
